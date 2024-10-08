@@ -1,0 +1,14 @@
+.social-logo{
+    transition: all 0.5 ease-in-out;
+    
+    color: red ;
+  }
+  .social-logo:hover{
+    background-color: #2D2A25;
+    line-height: 20px;
+    color: #fff;
+    /* transform: rotateX(360deg) !important; */
+  }
+  .subscribe{
+    color:  red ;
+  }

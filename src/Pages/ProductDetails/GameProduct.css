@@ -1,0 +1,60 @@
+.game-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.thumbnails {
+    display: flex;
+    gap: 10px;
+}
+
+.thumbnails img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.thumbnails img.active {
+    border-color: #000;
+}
+
+.selected-image img {
+    width: 300px;
+    
+}
+
+.game-info {
+    flex: 1;
+    line-height: 2;
+    text-align: left;
+}
+
+.game-info h1 {
+    margin: 10px 0;
+}
+
+.rating {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.current-price {
+    margin-right: 10px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.description {
+    margin-bottom: 20px;
+}
